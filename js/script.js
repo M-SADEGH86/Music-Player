@@ -1,3 +1,4 @@
+'use strict'
 let $ = document ;
 const image = $.querySelector("#cover");
 const title = $.getElementById("title");
@@ -17,22 +18,22 @@ const background = $.getElementById("background");
 // Music
 const songs = [
   {
-    path:"../assets/media/Living Life.mp3",
+    path:"./assets/media/Living Life.mp3",
     displayName: "Living Life In The Night",
     artist: "sierra",
-    cover:"../assets/image/Living Life.jpg",
+    cover:"./assets/image/Living Life.jpg",
   },
   {
     path: "../assets/media/Lite Over Flow.mp3",
     displayName: "Lite Over Flow",
     artist: "Mohammad",
-    cover: "../assets/image/Lite over flow.png",
+    cover: "./assets/image/Lite over flow.png",
   } ,
   {
-    path: "../assets/media/Darling.mp3",
+    path: "./assets/media/Darling.mp3",
     displayName: "Darling",
     artist: "Ali",
-    cover: "../assets/image/Darling.jpg",
+    cover: "./assets/image/Darling.jpg",
   } 
 ];
 
